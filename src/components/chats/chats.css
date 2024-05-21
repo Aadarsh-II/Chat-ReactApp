@@ -1,0 +1,52 @@
+.chats {
+  flex: 2;
+  border-left: 1px solid #7f7b7b;
+  border-right: 1px solid #7f7b7b;
+  height: 100%;
+
+  .top {
+    padding: 20px;
+    justify-self: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #7f7b7b;
+
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .texts {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        span {
+          font-size: 18px;
+          font-weight: bold;
+        }
+        p {
+          font-size: 14px;
+          font-weight: 300;
+          color: a5a5a5;
+        }
+      }
+    }
+    .icon {
+      display: flex;
+      gap: 20px;
+
+      img {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+}
